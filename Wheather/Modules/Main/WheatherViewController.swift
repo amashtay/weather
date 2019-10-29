@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WheatherViewController.swift
 //  Wheather
 //
 //  Created by Александр Тонхоноев on 29.10.2019.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WheatherViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 

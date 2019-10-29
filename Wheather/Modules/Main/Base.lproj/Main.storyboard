@@ -10,7 +10,7 @@
         <!--Погода-->
         <scene sceneID="ISh-Lm-NQ3">
             <objects>
-                <viewController id="F5P-ex-n9l" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WheatherViewController" id="F5P-ex-n9l" customClass="WheatherViewController" customModule="Wheather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CAZ-El-pYk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,18 +27,36 @@
         <!--Настройки-->
         <scene sceneID="tJS-PK-j3w">
             <objects>
-                <viewController id="acI-Ea-UUr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="acI-Ea-UUr" customClass="SettingsViewController" customModule="Wheather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hh3-Xz-Xug">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="khD-dP-Fgo">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="acI-Ea-UUr" id="9bv-cO-efE"/>
+                                    <outlet property="delegate" destination="acI-Ea-UUr" id="JDd-CI-EZc"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RWR-Jg-9rG" firstAttribute="bottom" secondItem="khD-dP-Fgo" secondAttribute="bottom" id="PnH-Bi-oXR"/>
+                            <constraint firstItem="khD-dP-Fgo" firstAttribute="leading" secondItem="RWR-Jg-9rG" secondAttribute="leading" id="ZiI-GR-5vr"/>
+                            <constraint firstItem="RWR-Jg-9rG" firstAttribute="trailing" secondItem="khD-dP-Fgo" secondAttribute="trailing" id="wPd-Xi-Cbk"/>
+                            <constraint firstItem="khD-dP-Fgo" firstAttribute="top" secondItem="RWR-Jg-9rG" secondAttribute="top" id="yB0-zw-Gcb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RWR-Jg-9rG"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Настройки" image="hammer.fill" catalog="system" id="PRt-74-bwr"/>
+                    <connections>
+                        <outlet property="tableView" destination="khD-dP-Fgo" id="miU-XT-UN5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qXv-sa-FfX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1496" y="471"/>
+            <point key="canvasLocation" x="1496" y="473"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WA6-sa-r9y">

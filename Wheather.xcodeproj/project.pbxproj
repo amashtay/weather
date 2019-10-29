@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1149A61E2368426200E20581 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A61D2368426200E20581 /* SettingsViewController.swift */; };
+		1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A6212368446E00E20581 /* SettingsTableViewCell.swift */; };
+		1149A6242368446F00E20581 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1149A6222368446F00E20581 /* SettingsTableViewCell.xib */; };
+		1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A62523684B4C00E20581 /* SettingsTableCellObject.swift */; };
+		1149A62B236851C000E20581 /* EnterCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A62A236851BF00E20581 /* EnterCityViewController.swift */; };
+		1149A62D236851D100E20581 /* EnterCity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1149A62C236851D100E20581 /* EnterCity.storyboard */; };
 		1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F523682A80002D1CF2 /* AppDelegate.swift */; };
 		1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F723682A80002D1CF2 /* SceneDelegate.swift */; };
-		1193A7FA23682A80002D1CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F923682A80002D1CF2 /* ViewController.swift */; };
+		1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F923682A80002D1CF2 /* WheatherViewController.swift */; };
 		1193A7FD23682A80002D1CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A7FB23682A80002D1CF2 /* Main.storyboard */; };
 		1193A7FF23682A85002D1CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1193A7FE23682A85002D1CF2 /* Assets.xcassets */; };
 		1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */; };
@@ -38,10 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1149A61D2368426200E20581 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1149A6212368446E00E20581 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		1149A6222368446F00E20581 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		1149A62523684B4C00E20581 /* SettingsTableCellObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableCellObject.swift; sourceTree = "<group>"; };
+		1149A62A236851BF00E20581 /* EnterCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCityViewController.swift; sourceTree = "<group>"; };
+		1149A62C236851D100E20581 /* EnterCity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EnterCity.storyboard; sourceTree = "<group>"; };
 		1193A7F223682A80002D1CF2 /* Wheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A7F523682A80002D1CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1193A7F723682A80002D1CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1193A7F923682A80002D1CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1193A7F923682A80002D1CF2 /* WheatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewController.swift; sourceTree = "<group>"; };
 		1193A7FC23682A80002D1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1193A7FE23682A85002D1CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1193A80123682A85002D1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,6 +113,8 @@
 		1149A6192368309900E20581 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1149A6272368518D00E20581 /* EnterCity */,
+				1149A61F236842F500E20581 /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -119,6 +133,44 @@
 				1193A7F723682A80002D1CF2 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		1149A61C2368423900E20581 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1149A6202368445500E20581 /* Cell */,
+				1149A61D2368426200E20581 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1149A61F236842F500E20581 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1149A61C2368423900E20581 /* Settings */,
+				1193A7F923682A80002D1CF2 /* WheatherViewController.swift */,
+				1193A7FB23682A80002D1CF2 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1149A6202368445500E20581 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1149A6212368446E00E20581 /* SettingsTableViewCell.swift */,
+				1149A6222368446F00E20581 /* SettingsTableViewCell.xib */,
+				1149A62523684B4C00E20581 /* SettingsTableCellObject.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1149A6272368518D00E20581 /* EnterCity */ = {
+			isa = PBXGroup;
+			children = (
+				1149A62A236851BF00E20581 /* EnterCityViewController.swift */,
+				1149A62C236851D100E20581 /* EnterCity.storyboard */,
+			);
+			path = EnterCity;
 			sourceTree = "<group>";
 		};
 		1193A7E923682A80002D1CF2 = {
@@ -150,8 +202,6 @@
 				1149A61A2368309F00E20581 /* Services */,
 				1149A6192368309900E20581 /* Modules */,
 				1149A6182368308800E20581 /* EnterCity */,
-				1193A7F923682A80002D1CF2 /* ViewController.swift */,
-				1193A7FB23682A80002D1CF2 /* Main.storyboard */,
 				1193A7FE23682A85002D1CF2 /* Assets.xcassets */,
 				1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */,
 				1193A80323682A85002D1CF2 /* Info.plist */,
@@ -311,7 +361,9 @@
 			files = (
 				1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */,
 				1193A7FF23682A85002D1CF2 /* Assets.xcassets in Resources */,
+				1149A6242368446F00E20581 /* SettingsTableViewCell.xib in Resources */,
 				1193A7FD23682A80002D1CF2 /* Main.storyboard in Resources */,
+				1149A62D236851D100E20581 /* EnterCity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,9 +491,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1193A7FA23682A80002D1CF2 /* ViewController.swift in Sources */,
+				1149A62B236851C000E20581 /* EnterCityViewController.swift in Sources */,
+				1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */,
 				1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */,
+				1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */,
 				1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */,
+				1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */,
+				1149A61E2368426200E20581 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
