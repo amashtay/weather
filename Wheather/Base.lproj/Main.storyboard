@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Погода-->
+        <scene sceneID="ISh-Lm-NQ3">
+            <objects>
+                <viewController id="F5P-ex-n9l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CAZ-El-pYk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="W4O-RK-bWa"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Погода" image="cloud.sun.fill" catalog="system" id="BGU-CB-PS3"/>
+                    <navigationItem key="navigationItem" id="Lsb-sT-RaW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Us-0t-pjB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1496" y="-279"/>
+        </scene>
+        <!--Настройки-->
+        <scene sceneID="tJS-PK-j3w">
+            <objects>
+                <viewController id="acI-Ea-UUr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hh3-Xz-Xug">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RWR-Jg-9rG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Настройки" image="hammer.fill" catalog="system" id="PRt-74-bwr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qXv-sa-FfX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1496" y="471"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WA6-sa-r9y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bmA-rm-GPN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pgs-CD-Umr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="T30-s6-4z1" kind="relationship" relationship="rootViewController" id="bJp-Fw-RvI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLL-lD-JNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-353.62318840579712" y="99.776785714285708"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Jrs-8M-65O">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="T30-s6-4z1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="AH0-gh-uRv"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jtC-N6-Kp5">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="F5P-ex-n9l" kind="relationship" relationship="viewControllers" id="sgN-Lk-Gty"/>
+                        <segue destination="acI-Ea-UUr" kind="relationship" relationship="viewControllers" id="43M-be-6G9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I8h-d1-RqS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556.52173913043487" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.sun.fill" catalog="system" width="64" height="44"/>
+        <image name="hammer.fill" catalog="system" width="64" height="56"/>
+    </resources>
+</document>

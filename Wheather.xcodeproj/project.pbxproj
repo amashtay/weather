@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F523682A80002D1CF2 /* AppDelegate.swift */; };
+		1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F723682A80002D1CF2 /* SceneDelegate.swift */; };
+		1193A7FA23682A80002D1CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F923682A80002D1CF2 /* ViewController.swift */; };
+		1193A7FD23682A80002D1CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A7FB23682A80002D1CF2 /* Main.storyboard */; };
+		1193A7FF23682A85002D1CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1193A7FE23682A85002D1CF2 /* Assets.xcassets */; };
+		1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */; };
+		1193A80D23682A85002D1CF2 /* WheatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A80C23682A85002D1CF2 /* WheatherTests.swift */; };
+		1193A81823682A85002D1CF2 /* WheatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A81723682A85002D1CF2 /* WheatherUITests.swift */; };
+		218771F76FE730256E4126E8 /* Pods_WheatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */; };
+		289EE9C10D05029425CB95CD /* Pods_Wheather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */; };
+		77CA8422D5F4F5F1C2AA0824 /* Pods_Wheather_WheatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1193A80923682A85002D1CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1193A7EA23682A80002D1CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1193A7F123682A80002D1CF2;
+			remoteInfo = Wheather;
+		};
+		1193A81423682A85002D1CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1193A7EA23682A80002D1CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1193A7F123682A80002D1CF2;
+			remoteInfo = Wheather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1193A7F223682A80002D1CF2 /* Wheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1193A7F523682A80002D1CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1193A7F723682A80002D1CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1193A7F923682A80002D1CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1193A7FC23682A80002D1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1193A7FE23682A85002D1CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1193A80123682A85002D1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1193A80323682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1193A80823682A85002D1CF2 /* WheatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1193A80C23682A85002D1CF2 /* WheatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTests.swift; sourceTree = "<group>"; };
+		1193A80E23682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1193A81323682A85002D1CF2 /* WheatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1193A81723682A85002D1CF2 /* WheatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherUITests.swift; sourceTree = "<group>"; };
+		1193A81923682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheather_WheatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTests.debug.xcconfig"; path = "Target Support Files/Pods-WheatherTests/Pods-WheatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		291E318976D8594900118175 /* Pods-Wheather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather.debug.xcconfig"; path = "Target Support Files/Pods-Wheather/Pods-Wheather.debug.xcconfig"; sourceTree = "<group>"; };
+		2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C355BE62E12128AE3836034C /* Pods-Wheather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather.release.xcconfig"; path = "Target Support Files/Pods-Wheather/Pods-Wheather.release.xcconfig"; sourceTree = "<group>"; };
+		D0A08401F27657A6C372096F /* Pods-WheatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTests.release.xcconfig"; path = "Target Support Files/Pods-WheatherTests/Pods-WheatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7CE8A931D3B33CB800A2AB2 /* Pods-Wheather-WheatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather-WheatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E98B721318A2AB9D75F46715 /* Pods-Wheather-WheatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather-WheatherUITests.release.xcconfig"; path = "Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1193A7EF23682A80002D1CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289EE9C10D05029425CB95CD /* Pods_Wheather.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1193A80523682A85002D1CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218771F76FE730256E4126E8 /* Pods_WheatherTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1193A81023682A85002D1CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CA8422D5F4F5F1C2AA0824 /* Pods_Wheather_WheatherUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1149A6182368308800E20581 /* EnterCity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EnterCity;
+			sourceTree = "<group>";
+		};
+		1149A6192368309900E20581 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1149A61A2368309F00E20581 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1149A61B236830A500E20581 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1193A7F523682A80002D1CF2 /* AppDelegate.swift */,
+				1193A7F723682A80002D1CF2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1193A7E923682A80002D1CF2 = {
+			isa = PBXGroup;
+			children = (
+				1193A7F423682A80002D1CF2 /* Wheather */,
+				1193A80B23682A85002D1CF2 /* WheatherTests */,
+				1193A81623682A85002D1CF2 /* WheatherUITests */,
+				1193A7F323682A80002D1CF2 /* Products */,
+				68B58992F321C4884B3DC111 /* Pods */,
+				2D254EBAC907F855402EFDEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1193A7F323682A80002D1CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1193A7F223682A80002D1CF2 /* Wheather.app */,
+				1193A80823682A85002D1CF2 /* WheatherTests.xctest */,
+				1193A81323682A85002D1CF2 /* WheatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1193A7F423682A80002D1CF2 /* Wheather */ = {
+			isa = PBXGroup;
+			children = (
+				1149A61B236830A500E20581 /* Application */,
+				1149A61A2368309F00E20581 /* Services */,
+				1149A6192368309900E20581 /* Modules */,
+				1149A6182368308800E20581 /* EnterCity */,
+				1193A7F923682A80002D1CF2 /* ViewController.swift */,
+				1193A7FB23682A80002D1CF2 /* Main.storyboard */,
+				1193A7FE23682A85002D1CF2 /* Assets.xcassets */,
+				1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */,
+				1193A80323682A85002D1CF2 /* Info.plist */,
+			);
+			path = Wheather;
+			sourceTree = "<group>";
+		};
+		1193A80B23682A85002D1CF2 /* WheatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				1193A80C23682A85002D1CF2 /* WheatherTests.swift */,
+				1193A80E23682A85002D1CF2 /* Info.plist */,
+			);
+			path = WheatherTests;
+			sourceTree = "<group>";
+		};
+		1193A81623682A85002D1CF2 /* WheatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1193A81723682A85002D1CF2 /* WheatherUITests.swift */,
+				1193A81923682A85002D1CF2 /* Info.plist */,
+			);
+			path = WheatherUITests;
+			sourceTree = "<group>";
+		};
+		2D254EBAC907F855402EFDEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */,
+				11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */,
+				2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B58992F321C4884B3DC111 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				291E318976D8594900118175 /* Pods-Wheather.debug.xcconfig */,
+				C355BE62E12128AE3836034C /* Pods-Wheather.release.xcconfig */,
+				E7CE8A931D3B33CB800A2AB2 /* Pods-Wheather-WheatherUITests.debug.xcconfig */,
+				E98B721318A2AB9D75F46715 /* Pods-Wheather-WheatherUITests.release.xcconfig */,
+				1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */,
+				D0A08401F27657A6C372096F /* Pods-WheatherTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1193A7F123682A80002D1CF2 /* Wheather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1193A81C23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "Wheather" */;
+			buildPhases = (
+				160DE1DEBE3BE6D2E643D880 /* [CP] Check Pods Manifest.lock */,
+				1193A7EE23682A80002D1CF2 /* Sources */,
+				1193A7EF23682A80002D1CF2 /* Frameworks */,
+				1193A7F023682A80002D1CF2 /* Resources */,
+				68878D3BB933ED4A443CADA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheather;
+			productName = Wheather;
+			productReference = 1193A7F223682A80002D1CF2 /* Wheather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1193A80723682A85002D1CF2 /* WheatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1193A81F23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherTests" */;
+			buildPhases = (
+				931B99E17B7136CF6296001D /* [CP] Check Pods Manifest.lock */,
+				1193A80423682A85002D1CF2 /* Sources */,
+				1193A80523682A85002D1CF2 /* Frameworks */,
+				1193A80623682A85002D1CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1193A80A23682A85002D1CF2 /* PBXTargetDependency */,
+			);
+			name = WheatherTests;
+			productName = WheatherTests;
+			productReference = 1193A80823682A85002D1CF2 /* WheatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1193A81223682A85002D1CF2 /* WheatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1193A82223682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherUITests" */;
+			buildPhases = (
+				6AE59FB4C37122D811054027 /* [CP] Check Pods Manifest.lock */,
+				1193A80F23682A85002D1CF2 /* Sources */,
+				1193A81023682A85002D1CF2 /* Frameworks */,
+				1193A81123682A85002D1CF2 /* Resources */,
+				E0A305C6E9524B8F7DF5BE6F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1193A81523682A85002D1CF2 /* PBXTargetDependency */,
+			);
+			name = WheatherUITests;
+			productName = WheatherUITests;
+			productReference = 1193A81323682A85002D1CF2 /* WheatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1193A7EA23682A80002D1CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Александр Тонхоноев";
+				TargetAttributes = {
+					1193A7F123682A80002D1CF2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					1193A80723682A85002D1CF2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1193A7F123682A80002D1CF2;
+					};
+					1193A81223682A85002D1CF2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1193A7F123682A80002D1CF2;
+					};
+				};
+			};
+			buildConfigurationList = 1193A7ED23682A80002D1CF2 /* Build configuration list for PBXProject "Wheather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1193A7E923682A80002D1CF2;
+			productRefGroup = 1193A7F323682A80002D1CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1193A7F123682A80002D1CF2 /* Wheather */,
+				1193A80723682A85002D1CF2 /* WheatherTests */,
+				1193A81223682A85002D1CF2 /* WheatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1193A7F023682A80002D1CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */,
+				1193A7FF23682A85002D1CF2 /* Assets.xcassets in Resources */,
+				1193A7FD23682A80002D1CF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1193A80623682A85002D1CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1193A81123682A85002D1CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160DE1DEBE3BE6D2E643D880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wheather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68878D3BB933ED4A443CADA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheather/Pods-Wheather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheather/Pods-Wheather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheather/Pods-Wheather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE59FB4C37122D811054027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wheather-WheatherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		931B99E17B7136CF6296001D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheatherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A305C6E9524B8F7DF5BE6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1193A7EE23682A80002D1CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1193A7FA23682A80002D1CF2 /* ViewController.swift in Sources */,
+				1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */,
+				1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1193A80423682A85002D1CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1193A80D23682A85002D1CF2 /* WheatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1193A80F23682A85002D1CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1193A81823682A85002D1CF2 /* WheatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1193A80A23682A85002D1CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1193A7F123682A80002D1CF2 /* Wheather */;
+			targetProxy = 1193A80923682A85002D1CF2 /* PBXContainerItemProxy */;
+		};
+		1193A81523682A85002D1CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1193A7F123682A80002D1CF2 /* Wheather */;
+			targetProxy = 1193A81423682A85002D1CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1193A7FB23682A80002D1CF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1193A7FC23682A80002D1CF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1193A80123682A85002D1CF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1193A81A23682A85002D1CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1193A81B23682A85002D1CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1193A81D23682A85002D1CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291E318976D8594900118175 /* Pods-Wheather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ46K2Z6E6;
+				INFOPLIST_FILE = Wheather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amashtay.Wheather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1193A81E23682A85002D1CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C355BE62E12128AE3836034C /* Pods-Wheather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ46K2Z6E6;
+				INFOPLIST_FILE = Wheather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amashtay.Wheather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1193A82023682A85002D1CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ46K2Z6E6;
+				INFOPLIST_FILE = WheatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amashtay.WheatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheather.app/Wheather";
+			};
+			name = Debug;
+		};
+		1193A82123682A85002D1CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A08401F27657A6C372096F /* Pods-WheatherTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ46K2Z6E6;
+				INFOPLIST_FILE = WheatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amashtay.WheatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheather.app/Wheather";
+			};
+			name = Release;
+		};
+		1193A82323682A85002D1CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CE8A931D3B33CB800A2AB2 /* Pods-Wheather-WheatherUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ46K2Z6E6;
+				INFOPLIST_FILE = WheatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amashtay.WheatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wheather;
+			};
+			name = Debug;
+		};
+		1193A82423682A85002D1CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98B721318A2AB9D75F46715 /* Pods-Wheather-WheatherUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ46K2Z6E6;
+				INFOPLIST_FILE = WheatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amashtay.WheatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wheather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1193A7ED23682A80002D1CF2 /* Build configuration list for PBXProject "Wheather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1193A81A23682A85002D1CF2 /* Debug */,
+				1193A81B23682A85002D1CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1193A81C23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "Wheather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1193A81D23682A85002D1CF2 /* Debug */,
+				1193A81E23682A85002D1CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1193A81F23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1193A82023682A85002D1CF2 /* Debug */,
+				1193A82123682A85002D1CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1193A82223682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1193A82323682A85002D1CF2 /* Debug */,
+				1193A82423682A85002D1CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1193A7EA23682A80002D1CF2 /* Project object */;
+}
