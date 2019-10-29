@@ -13,6 +13,9 @@
 		1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A62523684B4C00E20581 /* SettingsTableCellObject.swift */; };
 		1149A62B236851C000E20581 /* EnterCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A62A236851BF00E20581 /* EnterCityViewController.swift */; };
 		1149A62D236851D100E20581 /* EnterCity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1149A62C236851D100E20581 /* EnterCity.storyboard */; };
+		1149A631236852F300E20581 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A630236852F300E20581 /* SettingsRouter.swift */; };
+		1149A6332368530300E20581 /* SettingsRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A6322368530300E20581 /* SettingsRouterProtocol.swift */; };
+		1149A6362368548000E20581 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A6352368548000E20581 /* SettingsAssembly.swift */; };
 		1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F523682A80002D1CF2 /* AppDelegate.swift */; };
 		1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F723682A80002D1CF2 /* SceneDelegate.swift */; };
 		1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F923682A80002D1CF2 /* WheatherViewController.swift */; };
@@ -50,6 +53,9 @@
 		1149A62523684B4C00E20581 /* SettingsTableCellObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableCellObject.swift; sourceTree = "<group>"; };
 		1149A62A236851BF00E20581 /* EnterCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCityViewController.swift; sourceTree = "<group>"; };
 		1149A62C236851D100E20581 /* EnterCity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EnterCity.storyboard; sourceTree = "<group>"; };
+		1149A630236852F300E20581 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		1149A6322368530300E20581 /* SettingsRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouterProtocol.swift; sourceTree = "<group>"; };
+		1149A6352368548000E20581 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
 		1193A7F223682A80002D1CF2 /* Wheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A7F523682A80002D1CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1193A7F723682A80002D1CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,8 +144,9 @@
 		1149A61C2368423900E20581 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				1149A6202368445500E20581 /* Cell */,
-				1149A61D2368426200E20581 /* SettingsViewController.swift */,
+				1149A6342368546C00E20581 /* Assembly */,
+				1149A62F236852C100E20581 /* Router */,
+				1149A62E236852BC00E20581 /* View */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -171,6 +178,32 @@
 				1149A62C236851D100E20581 /* EnterCity.storyboard */,
 			);
 			path = EnterCity;
+			sourceTree = "<group>";
+		};
+		1149A62E236852BC00E20581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1149A6202368445500E20581 /* Cell */,
+				1149A61D2368426200E20581 /* SettingsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1149A62F236852C100E20581 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1149A630236852F300E20581 /* SettingsRouter.swift */,
+				1149A6322368530300E20581 /* SettingsRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1149A6342368546C00E20581 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1149A6352368548000E20581 /* SettingsAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		1193A7E923682A80002D1CF2 = {
@@ -492,8 +525,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1149A62B236851C000E20581 /* EnterCityViewController.swift in Sources */,
+				1149A631236852F300E20581 /* SettingsRouter.swift in Sources */,
+				1149A6362368548000E20581 /* SettingsAssembly.swift in Sources */,
 				1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */,
 				1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */,
+				1149A6332368530300E20581 /* SettingsRouterProtocol.swift in Sources */,
 				1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */,
 				1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */,
 				1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */,
