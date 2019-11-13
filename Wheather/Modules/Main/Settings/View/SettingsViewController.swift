@@ -10,11 +10,15 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    // MARK: IBOutlets
+    
     @IBOutlet weak var tableView: UITableView!
     
-    private let settingsTableViewCellReuseId = "SettingsTableViewCell"
+    // MARK: Properties
+    var presenter: SettingsViewOutput?
     
     var viewModel = [SettingsTableCellObject]()
+    private let settingsTableViewCellReuseId = "SettingsTableViewCell"
     
     // MARK: View's lifecycle
     

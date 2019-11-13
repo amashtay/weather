@@ -13,7 +13,16 @@ class SettingsAssembly: Assembly {
     func assemble(container: Container) {
         
         container.register(SettingsViewController.self) { resolver in
-            SettingsViewController()
+            let controller = SettingsViewController()
+            controller.presenter = resolver.resolve(SettingsViewOutput.self)!
+            return controller
+        }
+        
+        container.register(SettingsViewOutput.self) { resolver in
+            SettingsPresenter()
+        }.initCompleted { (resolver, presenter) in
+            let presenter = presenter as! SettingsPresenter
+            presenter.controller = (resolver.resolve(SettingsViewController.self)! as! SettingsViewOutput)
         }
         
         container.register(SettingsRouterProtocol.self) { resolver in
