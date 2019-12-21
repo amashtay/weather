@@ -24,6 +24,11 @@
 		1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */; };
 		1193A80D23682A85002D1CF2 /* WheatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A80C23682A85002D1CF2 /* WheatherTests.swift */; };
 		1193A81823682A85002D1CF2 /* WheatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A81723682A85002D1CF2 /* WheatherUITests.swift */; };
+		11DE118C23AE1DE2003C218E /* SettingsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */; };
+		11DE118F23AE208B003C218E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */; };
+		11DE119123AE20C3003C218E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119023AE20C3003C218E /* AppCoordinator.swift */; };
+		11DE119423AE2238003C218E /* GeneralBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119323AE2238003C218E /* GeneralBarViewController.swift */; };
+		11DE119723AE2530003C218E /* GeneralBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119623AE2530003C218E /* GeneralBarViewInput.swift */; };
 		218771F76FE730256E4126E8 /* Pods_WheatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */; };
 		289EE9C10D05029425CB95CD /* Pods_Wheather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */; };
 		77CA8422D5F4F5F1C2AA0824 /* Pods_Wheather_WheatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */; };
@@ -73,6 +78,11 @@
 		1193A81323682A85002D1CF2 /* WheatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A81723682A85002D1CF2 /* WheatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherUITests.swift; sourceTree = "<group>"; };
 		1193A81923682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWireframe.swift; sourceTree = "<group>"; };
+		11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		11DE119023AE20C3003C218E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		11DE119323AE2238003C218E /* GeneralBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarViewController.swift; sourceTree = "<group>"; };
+		11DE119623AE2530003C218E /* GeneralBarViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarViewInput.swift; sourceTree = "<group>"; };
 		11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheather_WheatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTests.debug.xcconfig"; path = "Target Support Files/Pods-WheatherTests/Pods-WheatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		291E318976D8594900118175 /* Pods-Wheather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather.debug.xcconfig"; path = "Target Support Files/Pods-Wheather/Pods-Wheather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +157,7 @@
 				84524BBD237C550700E592D4 /* Presenter */,
 				1149A62F236852C100E20581 /* Router */,
 				1149A62E236852BC00E20581 /* View */,
+				11DE118A23ADEC68003C218E /* Wireframe */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -154,9 +165,10 @@
 		1149A61F236842F500E20581 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				1149A61C2368423900E20581 /* Settings */,
-				1193A7F923682A80002D1CF2 /* WheatherViewController.swift */,
+				11DE118D23AE2054003C218E /* GeneralBar */,
 				1193A7FB23682A80002D1CF2 /* Main.storyboard */,
+				1149A61C2368423900E20581 /* Settings */,
+				11DE118823ADEBD4003C218E /* Wheather */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 		1193A7F423682A80002D1CF2 /* Wheather */ = {
 			isa = PBXGroup;
 			children = (
+				11DE118923ADEC2B003C218E /* AppCoordinator */,
 				1149A61B236830A500E20581 /* Application */,
 				1149A61A2368309F00E20581 /* Services */,
 				1149A6192368309900E20581 /* Modules */,
@@ -258,6 +271,48 @@
 				1193A81923682A85002D1CF2 /* Info.plist */,
 			);
 			path = WheatherUITests;
+			sourceTree = "<group>";
+		};
+		11DE118823ADEBD4003C218E /* Wheather */ = {
+			isa = PBXGroup;
+			children = (
+				1193A7F923682A80002D1CF2 /* WheatherViewController.swift */,
+			);
+			path = Wheather;
+			sourceTree = "<group>";
+		};
+		11DE118923ADEC2B003C218E /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */,
+				11DE119023AE20C3003C218E /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		11DE118A23ADEC68003C218E /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		11DE118D23AE2054003C218E /* GeneralBar */ = {
+			isa = PBXGroup;
+			children = (
+				11DE119523AE250B003C218E /* View */,
+			);
+			path = GeneralBar;
+			sourceTree = "<group>";
+		};
+		11DE119523AE250B003C218E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11DE119323AE2238003C218E /* GeneralBarViewController.swift */,
+				11DE119623AE2530003C218E /* GeneralBarViewInput.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		2D254EBAC907F855402EFDEB /* Frameworks */ = {
@@ -535,13 +590,18 @@
 			files = (
 				84524BC1237C57E100E592D4 /* SettingsViewOutput.swift in Sources */,
 				1149A62B236851C000E20581 /* EnterCityViewController.swift in Sources */,
+				11DE118F23AE208B003C218E /* CoordinatorProtocol.swift in Sources */,
 				1149A631236852F300E20581 /* SettingsRouter.swift in Sources */,
+				11DE119723AE2530003C218E /* GeneralBarViewInput.swift in Sources */,
+				11DE119423AE2238003C218E /* GeneralBarViewController.swift in Sources */,
+				11DE119123AE20C3003C218E /* AppCoordinator.swift in Sources */,
 				1149A6362368548000E20581 /* SettingsAssembly.swift in Sources */,
 				1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */,
 				1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */,
 				1149A6332368530300E20581 /* SettingsRouterProtocol.swift in Sources */,
 				1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */,
 				84524BC3237C5E8700E592D4 /* SettingsViewInput.swift in Sources */,
+				11DE118C23AE1DE2003C218E /* SettingsWireframe.swift in Sources */,
 				84524BBF237C57CA00E592D4 /* SettingsPresenter.swift in Sources */,
 				1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */,
 				1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */,

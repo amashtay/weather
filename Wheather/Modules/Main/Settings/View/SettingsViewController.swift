@@ -31,6 +31,7 @@ class SettingsViewController: UIViewController {
                            forCellReuseIdentifier: settingsTableViewCellReuseId)
         
         viewModel = generateViewModel()
+        presenter?.moduleWasLoaded()
     }
     
     // MARK: Private
@@ -74,5 +75,10 @@ extension SettingsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+    
+}
+
+
+extension SettingsViewController: SettingsViewInput {
     
 }

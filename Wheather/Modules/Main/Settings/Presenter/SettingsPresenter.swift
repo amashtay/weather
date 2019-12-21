@@ -10,7 +10,7 @@ import Foundation
 
 class SettingsPresenter {
 
-    weak var controller: SettingsViewOutput?
+    weak var controller: SettingsViewInput?
     
 }
 
