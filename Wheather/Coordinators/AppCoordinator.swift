@@ -17,7 +17,7 @@ extension AppCoordinator: CoordinatorProtocol {
     
     func start() {
         
-        let vc = SettingsWireframe.createModule()
+        let vc = GeneralBarWireframe.createModule()
         
         if window == nil {
             window = UIWindow(frame: UIScreen.main.bounds)

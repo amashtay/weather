@@ -7,6 +7,7 @@
 //
 
 import Swinject
+import UIKit
 
 class SettingsAssembly: Assembly {
     
@@ -19,6 +20,17 @@ class SettingsAssembly: Assembly {
             return controller
         }
         
+        /**
+         В отличии от GeneralBarAssembly здесь порядок будет следующим
+         
+         1) SettingsViewOutput
+         2) SettingsViewController
+         3) SettingsViewRouter
+         
+         подробнее об этом можно прочитать здесь
+         в разделе про графы в Object Scopes
+         https://medium.com/flawless-app-stories/ios-dependency-injection-using-swinject-9c4ceff99e41
+         */
         container.register(SettingsViewOutput.self) { resolver in
             SettingsPresenter()
         }.initCompleted { (resolver, presenter) in

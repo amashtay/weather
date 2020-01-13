@@ -9,12 +9,15 @@
 import UIKit
 
 class GeneralBarViewController: UITabBarController {
+    
+    var presenter: GeneralBarViewOutput?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
-    
 
+}
+
+extension GeneralBarViewController: GeneralBarViewInput {
+    
 }

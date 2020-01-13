@@ -6,8 +6,8 @@
 //  Copyright © 2019 Александр Тонхоноев. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class GeneralBarViewInput: NSObject {
+protocol GeneralBarViewInput: AnyObject {
 
 }
