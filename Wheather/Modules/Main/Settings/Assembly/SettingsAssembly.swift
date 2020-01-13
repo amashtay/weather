@@ -23,7 +23,7 @@ class SettingsAssembly: Assembly {
             SettingsPresenter()
         }.initCompleted { (resolver, presenter) in
             let presenter = presenter as! SettingsPresenter
-            presenter.controller = (resolver.resolve(SettingsViewController.self)! as! SettingsViewInput)
+            presenter.controller = (resolver.resolve(SettingsViewController.self)! as SettingsViewInput)
         }
         
         container.register(SettingsRouterProtocol.self) { resolver in
