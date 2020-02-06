@@ -21,12 +21,10 @@ class GeneralBarAssembly: Assembly {
         }
         
         container.register(GeneralBarViewOutput.self) { resolver in
-            let presenter = GeneralBarPresenter()
-            presenter.controller = resolver.resolve(GeneralBarViewController.self)! as GeneralBarViewInput
-            return presenter
-        }.initCompleted { (resolver, presenter) in
-            let controller = resolver.resolve(GeneralBarViewController.self)!
-            controller.presenter = presenter
+            GeneralBarPresenter()
+        }.initCompleted { (resolver, generalBarViewOutputImpl) in
+            let presenter = generalBarViewOutputImpl as! GeneralBarPresenter
+            presenter.controller = resolver.resolve(GeneralBarViewController.self)
         }
         
     }
