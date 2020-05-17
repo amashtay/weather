@@ -16,5 +16,4 @@ final class GeneralBarWireframe {
         return resolver.resolve(GeneralBarViewController.self)! as UIViewController
     }
     
-    
 }

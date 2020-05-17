@@ -11,13 +11,12 @@ import Foundation
 class GeneralBarPresenter {
     
     weak var controller: GeneralBarViewInput?
-    
 }
 
 extension GeneralBarPresenter: GeneralBarViewOutput {
     
     func moduleWasLoaded() {
-        
+        controller?.addTabFromModule(controller: SettingsWireframe.createModule())
     }
     
 }

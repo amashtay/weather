@@ -6,8 +6,10 @@
 //  Copyright © 2019 Александр Тонхоноев. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol GeneralBarViewInput: AnyObject {
 
+    func addTabFromModule(controller: UIViewController)
+    
 }

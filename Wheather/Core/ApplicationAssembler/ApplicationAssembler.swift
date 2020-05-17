@@ -6,9 +6,14 @@
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
 //
 
-import Foundation
+import Swinject
 
 /*
-Application assembly нужна для сервисов, которые стартуют
+Application assembler нужен для сервисов, которые стартуют
 на старте приложения
 */
+//struct ApplicationAssembler {
+//    static let shared = Assembler([
+//        GeneralBarAssembly()
+//    ])
+//}

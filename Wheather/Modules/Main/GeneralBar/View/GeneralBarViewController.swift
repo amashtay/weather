@@ -14,10 +14,19 @@ class GeneralBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter?.moduleWasLoaded()
     }
 
 }
 
 extension GeneralBarViewController: GeneralBarViewInput {
+ 
+    func addTabFromModule(controller: UIViewController) {
+        if var viewControllers = viewControllers {
+            viewControllers.append(controller)
+        } else {
+            viewControllers = [controller]
+        }
+    }
     
 }
