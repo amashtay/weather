@@ -28,6 +28,12 @@
 		1149A631236852F300E20581 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A630236852F300E20581 /* SettingsRouter.swift */; };
 		1149A6332368530300E20581 /* SettingsRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A6322368530300E20581 /* SettingsRouterProtocol.swift */; };
 		1149A6362368548000E20581 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A6352368548000E20581 /* SettingsAssembly.swift */; };
+		118A03F224718D34006AE33E /* MainWheatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A03F024718D34006AE33E /* MainWheatherCell.swift */; };
+		118A03F324718D34006AE33E /* MainWheatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118A03F124718D34006AE33E /* MainWheatherCell.xib */; };
+		118A03F524718D4A006AE33E /* MainWheatherCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A03F424718D4A006AE33E /* MainWheatherCellObject.swift */; };
+		118A03FA24719023006AE33E /* MainWheatherForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A03F824719023006AE33E /* MainWheatherForecastCell.swift */; };
+		118A03FB24719023006AE33E /* MainWheatherForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118A03F924719023006AE33E /* MainWheatherForecastCell.xib */; };
+		118A03FD24719044006AE33E /* MainWheatherForecastCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A03FC24719044006AE33E /* MainWheatherForecastCellObject.swift */; };
 		1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F523682A80002D1CF2 /* AppDelegate.swift */; };
 		1193A7F823682A80002D1CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F723682A80002D1CF2 /* SceneDelegate.swift */; };
 		1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A7F923682A80002D1CF2 /* WheatherViewController.swift */; };
@@ -88,6 +94,12 @@
 		1149A630236852F300E20581 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
 		1149A6322368530300E20581 /* SettingsRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouterProtocol.swift; sourceTree = "<group>"; };
 		1149A6352368548000E20581 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
+		118A03F024718D34006AE33E /* MainWheatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWheatherCell.swift; sourceTree = "<group>"; };
+		118A03F124718D34006AE33E /* MainWheatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWheatherCell.xib; sourceTree = "<group>"; };
+		118A03F424718D4A006AE33E /* MainWheatherCellObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWheatherCellObject.swift; sourceTree = "<group>"; };
+		118A03F824719023006AE33E /* MainWheatherForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWheatherForecastCell.swift; sourceTree = "<group>"; };
+		118A03F924719023006AE33E /* MainWheatherForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWheatherForecastCell.xib; sourceTree = "<group>"; };
+		118A03FC24719044006AE33E /* MainWheatherForecastCellObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWheatherForecastCellObject.swift; sourceTree = "<group>"; };
 		1193A7F223682A80002D1CF2 /* Wheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A7F523682A80002D1CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1193A7F723682A80002D1CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +172,7 @@
 		113D453724717FDF003DDFF3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				118A03EF24718C34006AE33E /* Cells */,
 				1193A7F923682A80002D1CF2 /* WheatherViewController.swift */,
 				113D453F24718091003DDFF3 /* WheatherViewInput.swift */,
 			);
@@ -337,6 +350,35 @@
 				1149A6352368548000E20581 /* SettingsAssembly.swift */,
 			);
 			path = Assembly;
+			sourceTree = "<group>";
+		};
+		118A03EF24718C34006AE33E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				118A03F624718F95006AE33E /* MainWheatherCell */,
+				118A03F724718FF2006AE33E /* MainWheatherForecastCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		118A03F624718F95006AE33E /* MainWheatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				118A03F124718D34006AE33E /* MainWheatherCell.xib */,
+				118A03F424718D4A006AE33E /* MainWheatherCellObject.swift */,
+				118A03F024718D34006AE33E /* MainWheatherCell.swift */,
+			);
+			path = MainWheatherCell;
+			sourceTree = "<group>";
+		};
+		118A03F724718FF2006AE33E /* MainWheatherForecastCell */ = {
+			isa = PBXGroup;
+			children = (
+				118A03F824719023006AE33E /* MainWheatherForecastCell.swift */,
+				118A03F924719023006AE33E /* MainWheatherForecastCell.xib */,
+				118A03FC24719044006AE33E /* MainWheatherForecastCellObject.swift */,
+			);
+			path = MainWheatherForecastCell;
 			sourceTree = "<group>";
 		};
 		1193A7E923682A80002D1CF2 = {
@@ -581,10 +623,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */,
+				118A03FB24719023006AE33E /* MainWheatherForecastCell.xib in Resources */,
 				1193A7FF23682A85002D1CF2 /* Assets.xcassets in Resources */,
 				1149A6242368446F00E20581 /* SettingsTableViewCell.xib in Resources */,
 				1193A7FD23682A80002D1CF2 /* Main.storyboard in Resources */,
 				1149A62D236851D100E20581 /* EnterCity.storyboard in Resources */,
+				118A03F324718D34006AE33E /* MainWheatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,12 +767,14 @@
 				11DE119123AE20C3003C218E /* AppCoordinator.swift in Sources */,
 				113D4543247180A3003DDFF3 /* WheatherViewOutput.swift in Sources */,
 				113D4545247180B6003DDFF3 /* WheatherAssembly.swift in Sources */,
+				118A03F524718D4A006AE33E /* MainWheatherCellObject.swift in Sources */,
 				1149A6362368548000E20581 /* SettingsAssembly.swift in Sources */,
 				1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */,
 				1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */,
 				1149A6332368530300E20581 /* SettingsRouterProtocol.swift in Sources */,
 				1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */,
 				113D454C247181F6003DDFF3 /* WheatherRouterProtocol.swift in Sources */,
+				118A03F224718D34006AE33E /* MainWheatherCell.swift in Sources */,
 				1141070623CC999A0061FB6F /* ApplicationAssembler.swift in Sources */,
 				114106FB23CC8C2A0061FB6F /* GeneralBarAssembly.swift in Sources */,
 				84524BC3237C5E8700E592D4 /* SettingsViewInput.swift in Sources */,
@@ -738,7 +784,9 @@
 				113D45482471813E003DDFF3 /* WheatherPresenter.swift in Sources */,
 				1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */,
 				113D453E24718035003DDFF3 /* WheatherWireframe.swift in Sources */,
+				118A03FD24719044006AE33E /* MainWheatherForecastCellObject.swift in Sources */,
 				1149A61E2368426200E20581 /* SettingsViewController.swift in Sources */,
+				118A03FA24719023006AE33E /* MainWheatherForecastCell.swift in Sources */,
 				114106FF23CC8E5F0061FB6F /* GeneralBarPresenter.swift in Sources */,
 				1141070423CC981B0061FB6F /* GeneralBarWireframe.swift in Sources */,
 				113D454A247181E2003DDFF3 /* WheatherRouter.swift in Sources */,
