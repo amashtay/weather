@@ -22,10 +22,11 @@ class GeneralBarViewController: UITabBarController {
 extension GeneralBarViewController: GeneralBarViewInput {
  
     func addTabFromModule(controller: UIViewController) {
-        if var viewControllers = viewControllers {
-            viewControllers.append(controller)
+        let navWrapper = UINavigationController(rootViewController: controller)
+        if viewControllers != nil {
+            viewControllers?.append(navWrapper)
         } else {
-            viewControllers = [controller]
+            viewControllers = [navWrapper]
         }
     }
     

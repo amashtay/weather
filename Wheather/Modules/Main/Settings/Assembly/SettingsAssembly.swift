@@ -6,8 +6,8 @@
 //  Copyright © 2019 Александр Тонхоноев. All rights reserved.
 //
 
-import Swinject
 import UIKit
+import Swinject
 
 class SettingsAssembly: Assembly {
     

@@ -10,10 +10,17 @@ import UIKit
 
 class WheatherViewController: UIViewController {
 
+    var presenter: WheatherViewOutput?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+}
+
+extension WheatherViewController: WheatherViewInput {
+    
 }
 
