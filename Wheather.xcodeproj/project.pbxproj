@@ -42,6 +42,9 @@
 		1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */; };
 		1193A80D23682A85002D1CF2 /* WheatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A80C23682A85002D1CF2 /* WheatherTests.swift */; };
 		1193A81823682A85002D1CF2 /* WheatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A81723682A85002D1CF2 /* WheatherUITests.swift */; };
+		11D47C5F2496714900C63CC1 /* WeekTemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D47C5D2496714900C63CC1 /* WeekTemperatureCell.swift */; };
+		11D47C602496714900C63CC1 /* WeekTemperatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D47C5E2496714900C63CC1 /* WeekTemperatureCell.xib */; };
+		11D47C62249672A800C63CC1 /* WeekTemperatureCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D47C61249672A800C63CC1 /* WeekTemperatureCellObject.swift */; };
 		11DE118C23AE1DE2003C218E /* SettingsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */; };
 		11DE118F23AE208B003C218E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */; };
 		11DE119123AE20C3003C218E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119023AE20C3003C218E /* AppCoordinator.swift */; };
@@ -114,6 +117,9 @@
 		1193A81323682A85002D1CF2 /* WheatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A81723682A85002D1CF2 /* WheatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherUITests.swift; sourceTree = "<group>"; };
 		1193A81923682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D47C5D2496714900C63CC1 /* WeekTemperatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTemperatureCell.swift; sourceTree = "<group>"; };
+		11D47C5E2496714900C63CC1 /* WeekTemperatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekTemperatureCell.xib; sourceTree = "<group>"; };
+		11D47C61249672A800C63CC1 /* WeekTemperatureCellObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTemperatureCellObject.swift; sourceTree = "<group>"; };
 		11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWireframe.swift; sourceTree = "<group>"; };
 		11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		11DE119023AE20C3003C218E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -374,6 +380,7 @@
 		118A03F724718FF2006AE33E /* MainWheatherForecastCell */ = {
 			isa = PBXGroup;
 			children = (
+				11D47C5C249670C200C63CC1 /* WeekTemperatureCell */,
 				118A03F824719023006AE33E /* MainWheatherForecastCell.swift */,
 				118A03F924719023006AE33E /* MainWheatherForecastCell.xib */,
 				118A03FC24719044006AE33E /* MainWheatherForecastCellObject.swift */,
@@ -430,6 +437,16 @@
 				1193A81923682A85002D1CF2 /* Info.plist */,
 			);
 			path = WheatherUITests;
+			sourceTree = "<group>";
+		};
+		11D47C5C249670C200C63CC1 /* WeekTemperatureCell */ = {
+			isa = PBXGroup;
+			children = (
+				11D47C5D2496714900C63CC1 /* WeekTemperatureCell.swift */,
+				11D47C5E2496714900C63CC1 /* WeekTemperatureCell.xib */,
+				11D47C61249672A800C63CC1 /* WeekTemperatureCellObject.swift */,
+			);
+			path = WeekTemperatureCell;
 			sourceTree = "<group>";
 		};
 		11DE118823ADEBD4003C218E /* Wheather */ = {
@@ -624,6 +641,7 @@
 			files = (
 				1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */,
 				118A03FB24719023006AE33E /* MainWheatherForecastCell.xib in Resources */,
+				11D47C602496714900C63CC1 /* WeekTemperatureCell.xib in Resources */,
 				1193A7FF23682A85002D1CF2 /* Assets.xcassets in Resources */,
 				1149A6242368446F00E20581 /* SettingsTableViewCell.xib in Resources */,
 				1193A7FD23682A80002D1CF2 /* Main.storyboard in Resources */,
@@ -771,12 +789,14 @@
 				1149A6362368548000E20581 /* SettingsAssembly.swift in Sources */,
 				1193A7FA23682A80002D1CF2 /* WheatherViewController.swift in Sources */,
 				1193A7F623682A80002D1CF2 /* AppDelegate.swift in Sources */,
+				11D47C62249672A800C63CC1 /* WeekTemperatureCellObject.swift in Sources */,
 				1149A6332368530300E20581 /* SettingsRouterProtocol.swift in Sources */,
 				1149A62623684B4C00E20581 /* SettingsTableCellObject.swift in Sources */,
 				113D454C247181F6003DDFF3 /* WheatherRouterProtocol.swift in Sources */,
 				118A03F224718D34006AE33E /* MainWheatherCell.swift in Sources */,
 				1141070623CC999A0061FB6F /* ApplicationAssembler.swift in Sources */,
 				114106FB23CC8C2A0061FB6F /* GeneralBarAssembly.swift in Sources */,
+				11D47C5F2496714900C63CC1 /* WeekTemperatureCell.swift in Sources */,
 				84524BC3237C5E8700E592D4 /* SettingsViewInput.swift in Sources */,
 				11DE118C23AE1DE2003C218E /* SettingsWireframe.swift in Sources */,
 				84524BBF237C57CA00E592D4 /* SettingsPresenter.swift in Sources */,

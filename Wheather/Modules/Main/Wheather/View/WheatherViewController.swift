@@ -44,6 +44,7 @@ extension WheatherViewController: UICollectionViewDataSource {
             }
         case 1:
             if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: mainWheatherForecastCellReuseId, for: indexPath) as? MainWheatherForecastCell {
+                cell.configure(with: MainWheatherForecastCellObject(weatherWeek: []))
                 return cell
             }
         default:
@@ -51,10 +52,23 @@ extension WheatherViewController: UICollectionViewDataSource {
         }
         return UICollectionViewCell()
     }
-    
-    
+
 }
 
 extension WheatherViewController: UICollectionViewDelegate {
     
+}
+
+extension WheatherViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = collectionView.bounds.size.width - collectionView.contentInset.left - collectionView.contentInset.right
+        return CGSize(width: width, height: 400)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+         return UIEdgeInsets(top: 10.0, left: 0.0, bottom: 0.0, right: 0.0)
+    }
 }

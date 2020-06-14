@@ -6,8 +6,10 @@
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class MainWheatherForecastCellObject: NSObject {
+struct MainWheatherForecastCellObject {
 
+    let weatherWeek: [WeekTemperatureCellObject]
+    
 }
