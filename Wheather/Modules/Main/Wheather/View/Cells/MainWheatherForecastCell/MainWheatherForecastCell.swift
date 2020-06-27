@@ -36,14 +36,16 @@ class MainWheatherForecastCell: UICollectionViewCell {
         
         tableView.register(UINib(nibName: "WeekTemperatureCell", bundle: nil), forCellReuseIdentifier: weekTemperatureCellReuseId)
     }
-
-    override func systemLayoutSizeFitting(_ targetSize: CGSize, withHorizontalFittingPriority horizontalFittingPriority: UILayoutPriority, verticalFittingPriority: UILayoutPriority) -> CGSize {
-        return tableView.contentSize
-    }
     
-//    override open var intrinsicContentSize: CGSize {
-//        return tableView.contentSize
-//    }
+    override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
+        setNeedsLayout()
+        layoutIfNeeded()
+        let size = tableView.contentSize
+        var newFrame = layoutAttributes.frame
+        newFrame.size.height = ceil(size.height)
+        layoutAttributes.frame = newFrame
+        return layoutAttributes
+    }
     
     // MARK: Internal
     

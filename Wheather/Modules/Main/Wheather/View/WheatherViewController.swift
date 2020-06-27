@@ -65,7 +65,7 @@ extension WheatherViewController: UICollectionViewDelegateFlowLayout {
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.bounds.size.width - collectionView.contentInset.left - collectionView.contentInset.right
-        return CGSize(width: width, height: 400)
+        return CGSize(width: width, height: 44)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
