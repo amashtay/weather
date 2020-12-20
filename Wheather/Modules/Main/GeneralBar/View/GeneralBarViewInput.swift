@@ -9,7 +9,5 @@
 import UIKit
 
 protocol GeneralBarViewInput: AnyObject {
-
-    func addTabFromModule(controller: UIViewController)
     
 }

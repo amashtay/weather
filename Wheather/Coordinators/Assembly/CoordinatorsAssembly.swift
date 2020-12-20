@@ -14,7 +14,7 @@ class CoordinatorsAssembly: Assembly {
     func assemble(container: Container) {
         container.register(AppCoordinator.self) { resolver in
             let appCoordinator = AppCoordinator()
-            appCoordinator.rootVC = resolver.resolve(GeneralBarViewController.self)! as UIViewController
+            appCoordinator.rootVC = resolver.resolve(GeneralBarViewController.self)!
             return appCoordinator
         }
     }

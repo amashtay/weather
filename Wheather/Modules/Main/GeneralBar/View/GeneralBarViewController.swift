@@ -11,17 +11,23 @@ import UIKit
 class GeneralBarViewController: UITabBarController {
     
     var presenter: GeneralBarViewOutput?
-
+    
+    var tabsModuleControllers = [UIViewController]()
+    
+    // MARK: View's lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tabsModuleControllers.forEach {
+            self.addTabFromModule(controller: $0)
+        }
+        
         presenter?.moduleWasLoaded()
     }
 
-}
-
-extension GeneralBarViewController: GeneralBarViewInput {
- 
-    func addTabFromModule(controller: UIViewController) {
+    
+    // MARK: Private
+    private func addTabFromModule(controller: UIViewController) {
         let navWrapper = UINavigationController(rootViewController: controller)
         if viewControllers != nil {
             viewControllers?.append(navWrapper)
@@ -29,5 +35,10 @@ extension GeneralBarViewController: GeneralBarViewInput {
             viewControllers = [navWrapper]
         }
     }
+}
+
+extension GeneralBarViewController: GeneralBarViewInput {
+ 
+
     
 }

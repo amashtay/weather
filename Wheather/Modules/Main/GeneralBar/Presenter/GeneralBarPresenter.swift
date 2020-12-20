@@ -16,8 +16,7 @@ class GeneralBarPresenter {
 extension GeneralBarPresenter: GeneralBarViewOutput {
     
     func moduleWasLoaded() {
-        controller!.addTabFromModule(controller: WheatherWireframe.createModule())
-        controller!.addTabFromModule(controller: SettingsWireframe.createModule())
+        print("tst")
     }
     
 }

@@ -18,12 +18,10 @@ extension AppCoordinator: CoordinatorProtocol {
     
     func start() {
         
-        let vc = rootVC
-        
         if window == nil {
             window = UIWindow(frame: UIScreen.main.bounds)
         }
-        window?.rootViewController = vc
+        window?.rootViewController = rootVC
         window?.makeKeyAndVisible()
     }
     

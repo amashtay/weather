@@ -16,6 +16,12 @@ class GeneralBarAssembly: Assembly {
         container.register(GeneralBarViewController.self) { resolver in
             let sb = UIStoryboard(name: "Main", bundle: nil)
             let controller = sb.instantiateViewController(withIdentifier: "GeneralBarViewController") as! GeneralBarViewController
+            
+            controller.tabsModuleControllers = [
+                resolver.resolve(WheatherViewController.self)!,
+                resolver.resolve(SettingsViewController.self)!
+            ]
+            
             controller.presenter = resolver.resolve(GeneralBarViewOutput.self)!
             return controller
         }
