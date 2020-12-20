@@ -38,9 +38,9 @@
 		11DE119123AE20C3003C218E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119023AE20C3003C218E /* AppCoordinator.swift */; };
 		11DE119423AE2238003C218E /* GeneralBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119323AE2238003C218E /* GeneralBarViewController.swift */; };
 		11DE119723AE2530003C218E /* GeneralBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119623AE2530003C218E /* GeneralBarViewInput.swift */; };
-		218771F76FE730256E4126E8 /* Pods_WheatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */; };
-		289EE9C10D05029425CB95CD /* Pods_Wheather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */; };
-		77CA8422D5F4F5F1C2AA0824 /* Pods_Wheather_WheatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */; };
+		1AADA726071F6C3E6EE6FAB8 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712E60D146CC3EEB26631EF8 /* Pods_Weather.framework */; };
+		4BB5329A0F88C3BA372AFD54 /* Pods_WeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F14FF28D5EC9E19F9D3DD9E /* Pods_WeatherTests.framework */; };
+		5FA8B9B068E70C2FCCA20344 /* Pods_Weather_WeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC1132FEC9C190F01957D84 /* Pods_Weather_WeatherUITests.framework */; };
 		84524BBF237C57CA00E592D4 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84524BBE237C57CA00E592D4 /* SettingsPresenter.swift */; };
 		84524BC1237C57E100E592D4 /* SettingsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84524BC0237C57E100E592D4 /* SettingsViewOutput.swift */; };
 		84524BC3237C5E8700E592D4 /* SettingsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84524BC2237C5E8700E592D4 /* SettingsViewInput.swift */; };
@@ -84,33 +84,39 @@
 		1149A630236852F300E20581 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
 		1149A6322368530300E20581 /* SettingsRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouterProtocol.swift; sourceTree = "<group>"; };
 		1149A6352368548000E20581 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
-		1193A7F223682A80002D1CF2 /* Wheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1193A7F223682A80002D1CF2 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A7F523682A80002D1CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1193A7F923682A80002D1CF2 /* WheatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewController.swift; sourceTree = "<group>"; };
 		1193A7FC23682A80002D1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1193A7FE23682A85002D1CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1193A80123682A85002D1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1193A80323682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1193A80823682A85002D1CF2 /* WheatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1193A80823682A85002D1CF2 /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A80C23682A85002D1CF2 /* WheatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTests.swift; sourceTree = "<group>"; };
 		1193A80E23682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1193A81323682A85002D1CF2 /* WheatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1193A81323682A85002D1CF2 /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A81723682A85002D1CF2 /* WheatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherUITests.swift; sourceTree = "<group>"; };
 		1193A81923682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		11DE119023AE20C3003C218E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		11DE119323AE2238003C218E /* GeneralBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarViewController.swift; sourceTree = "<group>"; };
 		11DE119623AE2530003C218E /* GeneralBarViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarViewInput.swift; sourceTree = "<group>"; };
-		11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheather_WheatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTests.debug.xcconfig"; path = "Target Support Files/Pods-WheatherTests/Pods-WheatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2222CA953C9CBC1C55C3C616 /* Pods-WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherTests/Pods-WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		291E318976D8594900118175 /* Pods-Wheather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather.debug.xcconfig"; path = "Target Support Files/Pods-Wheather/Pods-Wheather.debug.xcconfig"; sourceTree = "<group>"; };
-		2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1B777364A976E488C94BCB /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
+		3AEBC94191C2804A240D2AFD /* Pods-Weather-WeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-WeatherUITests.release.xcconfig"; path = "Target Support Files/Pods-Weather-WeatherUITests/Pods-Weather-WeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		712E60D146CC3EEB26631EF8 /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84524BBE237C57CA00E592D4 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
 		84524BC0237C57E100E592D4 /* SettingsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewOutput.swift; sourceTree = "<group>"; };
 		84524BC2237C5E8700E592D4 /* SettingsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewInput.swift; sourceTree = "<group>"; };
+		85CB019BE1E73CF2E3EEE012 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
+		9F14FF28D5EC9E19F9D3DD9E /* Pods_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC1132FEC9C190F01957D84 /* Pods_Weather_WeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_WeatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C355BE62E12128AE3836034C /* Pods-Wheather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather.release.xcconfig"; path = "Target Support Files/Pods-Wheather/Pods-Wheather.release.xcconfig"; sourceTree = "<group>"; };
 		D0A08401F27657A6C372096F /* Pods-WheatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTests.release.xcconfig"; path = "Target Support Files/Pods-WheatherTests/Pods-WheatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		D622483737343D93F216BA97 /* Pods-WeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTests.release.xcconfig"; path = "Target Support Files/Pods-WeatherTests/Pods-WeatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		E50F7B6E199D521AC2F55E25 /* Pods-Weather-WeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-WeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-Weather-WeatherUITests/Pods-Weather-WeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CE8A931D3B33CB800A2AB2 /* Pods-Wheather-WheatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather-WheatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E98B721318A2AB9D75F46715 /* Pods-Wheather-WheatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheather-WheatherUITests.release.xcconfig"; path = "Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289EE9C10D05029425CB95CD /* Pods_Wheather.framework in Frameworks */,
+				1AADA726071F6C3E6EE6FAB8 /* Pods_Weather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				218771F76FE730256E4126E8 /* Pods_WheatherTests.framework in Frameworks */,
+				4BB5329A0F88C3BA372AFD54 /* Pods_WeatherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CA8422D5F4F5F1C2AA0824 /* Pods_Wheather_WheatherUITests.framework in Frameworks */,
+				5FA8B9B068E70C2FCCA20344 /* Pods_Weather_WeatherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,9 +332,9 @@
 		1193A7E923682A80002D1CF2 = {
 			isa = PBXGroup;
 			children = (
-				1193A7F423682A80002D1CF2 /* Wheather */,
-				1193A80B23682A85002D1CF2 /* WheatherTests */,
-				1193A81623682A85002D1CF2 /* WheatherUITests */,
+				1193A7F423682A80002D1CF2 /* Weather */,
+				1193A80B23682A85002D1CF2 /* WeatherTests */,
+				1193A81623682A85002D1CF2 /* WeatherUITests */,
 				1193A7F323682A80002D1CF2 /* Products */,
 				68B58992F321C4884B3DC111 /* Pods */,
 				2D254EBAC907F855402EFDEB /* Frameworks */,
@@ -338,14 +344,14 @@
 		1193A7F323682A80002D1CF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1193A7F223682A80002D1CF2 /* Wheather.app */,
-				1193A80823682A85002D1CF2 /* WheatherTests.xctest */,
-				1193A81323682A85002D1CF2 /* WheatherUITests.xctest */,
+				1193A7F223682A80002D1CF2 /* Weather.app */,
+				1193A80823682A85002D1CF2 /* WeatherTests.xctest */,
+				1193A81323682A85002D1CF2 /* WeatherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1193A7F423682A80002D1CF2 /* Wheather */ = {
+		1193A7F423682A80002D1CF2 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
 				1141070223CC97A50061FB6F /* Core */,
@@ -353,25 +359,25 @@
 				1149A6192368309900E20581 /* Modules */,
 				114106FD23CC8DAA0061FB6F /* SupportingFiles */,
 			);
-			path = Wheather;
+			path = Weather;
 			sourceTree = "<group>";
 		};
-		1193A80B23682A85002D1CF2 /* WheatherTests */ = {
+		1193A80B23682A85002D1CF2 /* WeatherTests */ = {
 			isa = PBXGroup;
 			children = (
 				1193A80C23682A85002D1CF2 /* WheatherTests.swift */,
 				1193A80E23682A85002D1CF2 /* Info.plist */,
 			);
-			path = WheatherTests;
+			path = WeatherTests;
 			sourceTree = "<group>";
 		};
-		1193A81623682A85002D1CF2 /* WheatherUITests */ = {
+		1193A81623682A85002D1CF2 /* WeatherUITests */ = {
 			isa = PBXGroup;
 			children = (
 				1193A81723682A85002D1CF2 /* WheatherUITests.swift */,
 				1193A81923682A85002D1CF2 /* Info.plist */,
 			);
-			path = WheatherUITests;
+			path = WeatherUITests;
 			sourceTree = "<group>";
 		};
 		11DE118823ADEBD4003C218E /* Wheather */ = {
@@ -417,9 +423,9 @@
 		2D254EBAC907F855402EFDEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4774FAA6641EB3DDA277960E /* Pods_Wheather.framework */,
-				11EA4E149C8B991BBE67E2DA /* Pods_Wheather_WheatherUITests.framework */,
-				2D3D0055B5C9F5B54BEC85D6 /* Pods_WheatherTests.framework */,
+				712E60D146CC3EEB26631EF8 /* Pods_Weather.framework */,
+				BFC1132FEC9C190F01957D84 /* Pods_Weather_WeatherUITests.framework */,
+				9F14FF28D5EC9E19F9D3DD9E /* Pods_WeatherTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -433,6 +439,12 @@
 				E98B721318A2AB9D75F46715 /* Pods-Wheather-WheatherUITests.release.xcconfig */,
 				1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */,
 				D0A08401F27657A6C372096F /* Pods-WheatherTests.release.xcconfig */,
+				2C1B777364A976E488C94BCB /* Pods-Weather.debug.xcconfig */,
+				85CB019BE1E73CF2E3EEE012 /* Pods-Weather.release.xcconfig */,
+				E50F7B6E199D521AC2F55E25 /* Pods-Weather-WeatherUITests.debug.xcconfig */,
+				3AEBC94191C2804A240D2AFD /* Pods-Weather-WeatherUITests.release.xcconfig */,
+				2222CA953C9CBC1C55C3C616 /* Pods-WeatherTests.debug.xcconfig */,
+				D622483737343D93F216BA97 /* Pods-WeatherTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -449,9 +461,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1193A7F123682A80002D1CF2 /* Wheather */ = {
+		1193A7F123682A80002D1CF2 /* Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1193A81C23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "Wheather" */;
+			buildConfigurationList = 1193A81C23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "Weather" */;
 			buildPhases = (
 				160DE1DEBE3BE6D2E643D880 /* [CP] Check Pods Manifest.lock */,
 				1193A7EE23682A80002D1CF2 /* Sources */,
@@ -463,14 +475,14 @@
 			);
 			dependencies = (
 			);
-			name = Wheather;
+			name = Weather;
 			productName = Wheather;
-			productReference = 1193A7F223682A80002D1CF2 /* Wheather.app */;
+			productReference = 1193A7F223682A80002D1CF2 /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1193A80723682A85002D1CF2 /* WheatherTests */ = {
+		1193A80723682A85002D1CF2 /* WeatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1193A81F23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherTests" */;
+			buildConfigurationList = 1193A81F23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WeatherTests" */;
 			buildPhases = (
 				931B99E17B7136CF6296001D /* [CP] Check Pods Manifest.lock */,
 				1193A80423682A85002D1CF2 /* Sources */,
@@ -482,14 +494,14 @@
 			dependencies = (
 				1193A80A23682A85002D1CF2 /* PBXTargetDependency */,
 			);
-			name = WheatherTests;
+			name = WeatherTests;
 			productName = WheatherTests;
-			productReference = 1193A80823682A85002D1CF2 /* WheatherTests.xctest */;
+			productReference = 1193A80823682A85002D1CF2 /* WeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1193A81223682A85002D1CF2 /* WheatherUITests */ = {
+		1193A81223682A85002D1CF2 /* WeatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1193A82223682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherUITests" */;
+			buildConfigurationList = 1193A82223682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WeatherUITests" */;
 			buildPhases = (
 				6AE59FB4C37122D811054027 /* [CP] Check Pods Manifest.lock */,
 				1193A80F23682A85002D1CF2 /* Sources */,
@@ -502,9 +514,9 @@
 			dependencies = (
 				1193A81523682A85002D1CF2 /* PBXTargetDependency */,
 			);
-			name = WheatherUITests;
+			name = WeatherUITests;
 			productName = WheatherUITests;
-			productReference = 1193A81323682A85002D1CF2 /* WheatherUITests.xctest */;
+			productReference = 1193A81323682A85002D1CF2 /* WeatherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -530,7 +542,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1193A7ED23682A80002D1CF2 /* Build configuration list for PBXProject "Wheather" */;
+			buildConfigurationList = 1193A7ED23682A80002D1CF2 /* Build configuration list for PBXProject "Weather" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -543,9 +555,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1193A7F123682A80002D1CF2 /* Wheather */,
-				1193A80723682A85002D1CF2 /* WheatherTests */,
-				1193A81223682A85002D1CF2 /* WheatherUITests */,
+				1193A7F123682A80002D1CF2 /* Weather */,
+				1193A80723682A85002D1CF2 /* WeatherTests */,
+				1193A81223682A85002D1CF2 /* WeatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -595,7 +607,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wheather-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Weather-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -608,15 +620,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wheather/Pods-Wheather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Weather/Pods-Weather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wheather/Pods-Wheather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Weather/Pods-Weather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheather/Pods-Wheather-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6AE59FB4C37122D811054027 /* [CP] Check Pods Manifest.lock */ = {
@@ -634,7 +646,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wheather-WheatherUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Weather-WeatherUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -656,7 +668,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WheatherTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeatherTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -669,15 +681,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Weather-WeatherUITests/Pods-Weather-WeatherUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Weather-WeatherUITests/Pods-Weather-WeatherUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheather-WheatherUITests/Pods-Wheather-WheatherUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weather-WeatherUITests/Pods-Weather-WeatherUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -738,12 +750,12 @@
 /* Begin PBXTargetDependency section */
 		1193A80A23682A85002D1CF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1193A7F123682A80002D1CF2 /* Wheather */;
+			target = 1193A7F123682A80002D1CF2 /* Weather */;
 			targetProxy = 1193A80923682A85002D1CF2 /* PBXContainerItemProxy */;
 		};
 		1193A81523682A85002D1CF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1193A7F123682A80002D1CF2 /* Wheather */;
+			target = 1193A7F123682A80002D1CF2 /* Weather */;
 			targetProxy = 1193A81423682A85002D1CF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -886,7 +898,7 @@
 		};
 		1193A81D23682A85002D1CF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291E318976D8594900118175 /* Pods-Wheather.debug.xcconfig */;
+			baseConfigurationReference = 2C1B777364A976E488C94BCB /* Pods-Weather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -906,7 +918,7 @@
 		};
 		1193A81E23682A85002D1CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C355BE62E12128AE3836034C /* Pods-Wheather.release.xcconfig */;
+			baseConfigurationReference = 85CB019BE1E73CF2E3EEE012 /* Pods-Weather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -926,7 +938,7 @@
 		};
 		1193A82023682A85002D1CF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D91240DDB311C4E16CB76AB /* Pods-WheatherTests.debug.xcconfig */;
+			baseConfigurationReference = 2222CA953C9CBC1C55C3C616 /* Pods-WeatherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -943,13 +955,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheather.app/Wheather";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather.app/Weather";
 			};
 			name = Debug;
 		};
 		1193A82123682A85002D1CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0A08401F27657A6C372096F /* Pods-WheatherTests.release.xcconfig */;
+			baseConfigurationReference = D622483737343D93F216BA97 /* Pods-WeatherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -966,13 +978,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheather.app/Wheather";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather.app/Weather";
 			};
 			name = Release;
 		};
 		1193A82323682A85002D1CF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7CE8A931D3B33CB800A2AB2 /* Pods-Wheather-WheatherUITests.debug.xcconfig */;
+			baseConfigurationReference = E50F7B6E199D521AC2F55E25 /* Pods-Weather-WeatherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -993,7 +1005,7 @@
 		};
 		1193A82423682A85002D1CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E98B721318A2AB9D75F46715 /* Pods-Wheather-WheatherUITests.release.xcconfig */;
+			baseConfigurationReference = 3AEBC94191C2804A240D2AFD /* Pods-Weather-WeatherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1015,7 +1027,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1193A7ED23682A80002D1CF2 /* Build configuration list for PBXProject "Wheather" */ = {
+		1193A7ED23682A80002D1CF2 /* Build configuration list for PBXProject "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1193A81A23682A85002D1CF2 /* Debug */,
@@ -1024,7 +1036,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1193A81C23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "Wheather" */ = {
+		1193A81C23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1193A81D23682A85002D1CF2 /* Debug */,
@@ -1033,7 +1045,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1193A81F23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherTests" */ = {
+		1193A81F23682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1193A82023682A85002D1CF2 /* Debug */,
@@ -1042,7 +1054,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1193A82223682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WheatherUITests" */ = {
+		1193A82223682A85002D1CF2 /* Build configuration list for PBXNativeTarget "WeatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1193A82323682A85002D1CF2 /* Debug */,

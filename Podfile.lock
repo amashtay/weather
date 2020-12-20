@@ -1,20 +1,16 @@
 PODS:
-  - ObjectMapper (3.5.1)
   - Swinject (2.7.1)
 
 DEPENDENCIES:
-  - ObjectMapper (~> 3.4)
   - Swinject
 
 SPEC REPOS:
   trunk:
-    - ObjectMapper
     - Swinject
 
 SPEC CHECKSUMS:
-  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 14875cf92a1a045d99092a616492b0f77c964a2c
+PODFILE CHECKSUM: 72903b46e27aa3aad090c036df3c1e51b678d412
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1
