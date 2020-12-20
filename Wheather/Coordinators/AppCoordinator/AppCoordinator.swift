@@ -11,13 +11,14 @@ import UIKit
 final class AppCoordinator {
     
     var window: UIWindow?
+    var rootVC: UIViewController?
 }
 
 extension AppCoordinator: CoordinatorProtocol {
     
     func start() {
         
-        let vc = GeneralBarWireframe.createModule()
+        let vc = rootVC
         
         if window == nil {
             window = UIWindow(frame: UIScreen.main.bounds)

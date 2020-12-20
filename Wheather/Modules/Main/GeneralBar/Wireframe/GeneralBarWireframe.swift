@@ -12,8 +12,8 @@ import Swinject
 final class GeneralBarWireframe {
     
     static func createModule() -> UIViewController {
-        let resolver = Assembler([GeneralBarAssembly()]).resolver
-        return resolver.resolve(GeneralBarViewController.self)! as UIViewController
+        let resolver = ApplicationAssembler.shared.resolver
+        return resolver.resolve(GeneralBarViewController.self)!
     }
     
 }

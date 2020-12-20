@@ -9,11 +9,17 @@
 import Swinject
 
 /*
-Application assembler нужен для сервисов, которые стартуют
-на старте приложения
+Application assembler необходим для построения графа зависимостей
+в общем контейнере на всё приложение
 */
-//struct ApplicationAssembler {
-//    static let shared = Assembler([
-//        GeneralBarAssembly()
-//    ])
-//}
+final class ApplicationAssembler {
+    static let shared = Assembler([
+        
+        CoordinatorsAssembly(),
+        
+        GeneralBarAssembly(),
+        SettingsAssembly(),
+        
+        WheatherAssembly(),
+    ])
+}

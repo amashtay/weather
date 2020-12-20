@@ -12,8 +12,8 @@ import Swinject
 final class WheatherWireframe: NSObject {
     
     static func createModule() -> UIViewController {
-        let resolver = Assembler([WheatherAssembly()]).resolver
-        return resolver.resolve(WheatherViewController.self)! as UIViewController
+        let resolver = ApplicationAssembler.shared.resolver
+        return resolver.resolve(WheatherViewController.self)!
     }
     
 }

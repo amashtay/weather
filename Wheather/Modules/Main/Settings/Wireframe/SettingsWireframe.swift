@@ -12,8 +12,8 @@ import Swinject
 final class SettingsWireframe {
     
     static func createModule() -> UIViewController {
-        let resolver = Assembler([SettingsAssembly()]).resolver
-        return resolver.resolve(SettingsViewController.self)! as UIViewController
+        let resolver = ApplicationAssembler.shared.resolver
+        return resolver.resolve(SettingsViewController.self)!
     }
     
 }
