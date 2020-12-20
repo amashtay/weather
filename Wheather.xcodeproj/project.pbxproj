@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1112480D258F5E59009ACFE5 /* CoordinatorsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112480C258F5E59009ACFE5 /* CoordinatorsAssembly.swift */; };
-		113D453E24718035003DDFF3 /* WheatherWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D453D24718035003DDFF3 /* WheatherWireframe.swift */; };
 		113D454024718091003DDFF3 /* WheatherViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D453F24718091003DDFF3 /* WheatherViewInput.swift */; };
 		113D4543247180A3003DDFF3 /* WheatherViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D4542247180A3003DDFF3 /* WheatherViewOutput.swift */; };
 		113D4545247180B6003DDFF3 /* WheatherAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D4544247180B6003DDFF3 /* WheatherAssembly.swift */; };
@@ -18,7 +17,6 @@
 		114106FB23CC8C2A0061FB6F /* GeneralBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114106FA23CC8C2A0061FB6F /* GeneralBarAssembly.swift */; };
 		114106FF23CC8E5F0061FB6F /* GeneralBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114106FE23CC8E5F0061FB6F /* GeneralBarPresenter.swift */; };
 		1141070123CC8E720061FB6F /* GeneralBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141070023CC8E720061FB6F /* GeneralBarViewOutput.swift */; };
-		1141070423CC981B0061FB6F /* GeneralBarWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141070323CC981B0061FB6F /* GeneralBarWireframe.swift */; };
 		1141070623CC999A0061FB6F /* ApplicationAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141070523CC999A0061FB6F /* ApplicationAssembler.swift */; };
 		1149A61E2368426200E20581 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A61D2368426200E20581 /* SettingsViewController.swift */; };
 		1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A6212368446E00E20581 /* SettingsTableViewCell.swift */; };
@@ -36,7 +34,6 @@
 		1193A80223682A85002D1CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1193A80023682A85002D1CF2 /* LaunchScreen.storyboard */; };
 		1193A80D23682A85002D1CF2 /* WheatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A80C23682A85002D1CF2 /* WheatherTests.swift */; };
 		1193A81823682A85002D1CF2 /* WheatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193A81723682A85002D1CF2 /* WheatherUITests.swift */; };
-		11DE118C23AE1DE2003C218E /* SettingsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */; };
 		11DE118F23AE208B003C218E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */; };
 		11DE119123AE20C3003C218E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119023AE20C3003C218E /* AppCoordinator.swift */; };
 		11DE119423AE2238003C218E /* GeneralBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DE119323AE2238003C218E /* GeneralBarViewController.swift */; };
@@ -68,7 +65,6 @@
 
 /* Begin PBXFileReference section */
 		1112480C258F5E59009ACFE5 /* CoordinatorsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsAssembly.swift; sourceTree = "<group>"; };
-		113D453D24718035003DDFF3 /* WheatherWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherWireframe.swift; sourceTree = "<group>"; };
 		113D453F24718091003DDFF3 /* WheatherViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewInput.swift; sourceTree = "<group>"; };
 		113D4542247180A3003DDFF3 /* WheatherViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewOutput.swift; sourceTree = "<group>"; };
 		113D4544247180B6003DDFF3 /* WheatherAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAssembly.swift; sourceTree = "<group>"; };
@@ -78,7 +74,6 @@
 		114106FA23CC8C2A0061FB6F /* GeneralBarAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarAssembly.swift; sourceTree = "<group>"; };
 		114106FE23CC8E5F0061FB6F /* GeneralBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarPresenter.swift; sourceTree = "<group>"; };
 		1141070023CC8E720061FB6F /* GeneralBarViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarViewOutput.swift; sourceTree = "<group>"; };
-		1141070323CC981B0061FB6F /* GeneralBarWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarWireframe.swift; sourceTree = "<group>"; };
 		1141070523CC999A0061FB6F /* ApplicationAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembler.swift; sourceTree = "<group>"; };
 		1149A61D2368426200E20581 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1149A6212368446E00E20581 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
@@ -102,7 +97,6 @@
 		1193A81323682A85002D1CF2 /* WheatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1193A81723682A85002D1CF2 /* WheatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherUITests.swift; sourceTree = "<group>"; };
 		1193A81923682A85002D1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWireframe.swift; sourceTree = "<group>"; };
 		11DE118E23AE208B003C218E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		11DE119023AE20C3003C218E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		11DE119323AE2238003C218E /* GeneralBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralBarViewController.swift; sourceTree = "<group>"; };
@@ -200,14 +194,6 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		113D453C24718010003DDFF3 /* Wireframe */ = {
-			isa = PBXGroup;
-			children = (
-				113D453D24718035003DDFF3 /* WheatherWireframe.swift */,
-			);
-			path = Wireframe;
-			sourceTree = "<group>";
-		};
 		114106F623CC8AD20061FB6F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,14 +201,6 @@
 				1141070023CC8E720061FB6F /* GeneralBarViewOutput.swift */,
 			);
 			path = Presenter;
-			sourceTree = "<group>";
-		};
-		114106F823CC8AE30061FB6F /* Wireframe */ = {
-			isa = PBXGroup;
-			children = (
-				1141070323CC981B0061FB6F /* GeneralBarWireframe.swift */,
-			);
-			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		114106F923CC8BEA0061FB6F /* Assembly */ = {
@@ -285,7 +263,6 @@
 				84524BBD237C550700E592D4 /* Presenter */,
 				1149A62F236852C100E20581 /* Router */,
 				1149A62E236852BC00E20581 /* View */,
-				11DE118A23ADEC68003C218E /* Wireframe */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -404,7 +381,6 @@
 				113D453824717FE6003DDFF3 /* Presenter */,
 				113D453924717FEE003DDFF3 /* Router */,
 				113D453724717FDF003DDFF3 /* View */,
-				113D453C24718010003DDFF3 /* Wireframe */,
 			);
 			path = Wheather;
 			sourceTree = "<group>";
@@ -419,21 +395,12 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		11DE118A23ADEC68003C218E /* Wireframe */ = {
-			isa = PBXGroup;
-			children = (
-				11DE118B23AE1DE2003C218E /* SettingsWireframe.swift */,
-			);
-			path = Wireframe;
-			sourceTree = "<group>";
-		};
 		11DE118D23AE2054003C218E /* GeneralBar */ = {
 			isa = PBXGroup;
 			children = (
 				114106F923CC8BEA0061FB6F /* Assembly */,
 				114106F623CC8AD20061FB6F /* Presenter */,
 				11DE119523AE250B003C218E /* View */,
-				114106F823CC8AE30061FB6F /* Wireframe */,
 			);
 			path = GeneralBar;
 			sourceTree = "<group>";
@@ -741,14 +708,11 @@
 				1141070623CC999A0061FB6F /* ApplicationAssembler.swift in Sources */,
 				114106FB23CC8C2A0061FB6F /* GeneralBarAssembly.swift in Sources */,
 				84524BC3237C5E8700E592D4 /* SettingsViewInput.swift in Sources */,
-				11DE118C23AE1DE2003C218E /* SettingsWireframe.swift in Sources */,
 				84524BBF237C57CA00E592D4 /* SettingsPresenter.swift in Sources */,
 				113D45482471813E003DDFF3 /* WheatherPresenter.swift in Sources */,
 				1149A6232368446F00E20581 /* SettingsTableViewCell.swift in Sources */,
-				113D453E24718035003DDFF3 /* WheatherWireframe.swift in Sources */,
 				1149A61E2368426200E20581 /* SettingsViewController.swift in Sources */,
 				114106FF23CC8E5F0061FB6F /* GeneralBarPresenter.swift in Sources */,
-				1141070423CC981B0061FB6F /* GeneralBarWireframe.swift in Sources */,
 				113D454A247181E2003DDFF3 /* WheatherRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
