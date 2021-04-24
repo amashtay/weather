@@ -1,15 +1,15 @@
 //
-//  WheatherTests.swift
-//  WheatherTests
+//  WeatherTests.swift
+//  WeatherTests
 //
 //  Created by Александр Тонхоноев on 29.10.2019.
 //  Copyright © 2019 Александр Тонхоноев. All rights reserved.
 //
 
 import XCTest
-@testable import Wheather
+@testable import Weather
 
-class WheatherTests: XCTestCase {
+class WeatherTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

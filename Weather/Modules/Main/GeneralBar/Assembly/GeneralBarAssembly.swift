@@ -1,6 +1,6 @@
 //
 //  GeneralBarAssembly.swift
-//  Wheather
+//  Weather
 //
 //  Created by Александр Тонхоноев on 13.01.2020.
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
@@ -18,7 +18,7 @@ class GeneralBarAssembly: Assembly {
             let controller = sb.instantiateViewController(withIdentifier: "GeneralBarViewController") as! GeneralBarViewController
             
             controller.tabsModuleControllers = [
-                resolver.resolve(WheatherViewController.self)!,
+                resolver.resolve(WeatherViewController.self)!,
                 resolver.resolve(SettingsViewController.self)!
             ]
             

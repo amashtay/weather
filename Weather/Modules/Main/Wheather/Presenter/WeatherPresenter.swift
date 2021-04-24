@@ -1,6 +1,6 @@
 //
-//  WheatherPresenter.swift
-//  Wheather
+//  WeatherPresenter.swift
+//  Weather
 //
 //  Created by Александр Тонхоноев on 17.05.2020.
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-class WheatherPresenter {
-    weak var controller: WheatherViewInput?
+class WeatherPresenter {
+    weak var controller: WeatherViewInput?
 }
 
-extension WheatherPresenter: WheatherViewOutput {
+extension WeatherPresenter: WeatherViewOutput {
     
 }

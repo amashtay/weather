@@ -1,6 +1,6 @@
 //
 //  CoordinatorsAssembly.swift
-//  Wheather
+//  Weather
 //
 //  Created by Александр Тонхоноев on 20.12.2020.
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.

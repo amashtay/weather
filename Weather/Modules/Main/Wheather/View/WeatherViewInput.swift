@@ -1,6 +1,6 @@
 //
-//  WheatherViewInput.swift
-//  Wheather
+//  WeatherViewInput.swift
+//  Weather
 //
 //  Created by Александр Тонхоноев on 17.05.2020.
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-protocol WheatherViewInput: AnyObject {
+protocol WeatherViewInput: AnyObject {
 
 }

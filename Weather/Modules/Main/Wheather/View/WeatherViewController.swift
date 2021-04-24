@@ -1,6 +1,6 @@
 //
-//  WheatherViewController.swift
-//  Wheather
+//  WeatherViewController.swift
+//  Weather
 //
 //  Created by Александр Тонхоноев on 29.10.2019.
 //  Copyright © 2019 Александр Тонхоноев. All rights reserved.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class WheatherViewController: UIViewController {
+class WeatherViewController: UIViewController {
 
-    var presenter: WheatherViewOutput?
+    var presenter: WeatherViewOutput?
     
     
     override func viewDidLoad() {
@@ -20,7 +20,7 @@ class WheatherViewController: UIViewController {
 
 }
 
-extension WheatherViewController: WheatherViewInput {
+extension WeatherViewController: WeatherViewInput {
     
 }
 

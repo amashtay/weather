@@ -1,13 +1,13 @@
 //
-//  WheatherRouter.swift
-//  Wheather
+//  WeatherRouterProtocol.swift
+//  Weather
 //
 //  Created by Александр Тонхоноев on 17.05.2020.
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class WheatherRouter: NSObject {
-
+protocol WeatherRouterProtocol: AnyObject {
+    
 }

@@ -1,13 +1,13 @@
 //
-//  WheatherViewOutput.swift
-//  Wheather
+//  WeatherRouter.swift
+//  Weather
 //
 //  Created by Александр Тонхоноев on 17.05.2020.
 //  Copyright © 2020 Александр Тонхоноев. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-protocol WheatherViewOutput: AnyObject {
-    
+class WeatherRouter {
+
 }
